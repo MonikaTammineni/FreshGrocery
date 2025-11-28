@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: monikatammineni/grocery-backend:latest
+    image: hemachand0425/grocery-backend:latest
     container_name: springboot
     ports:
       - "2810:2000"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: monikatammineni/grocery-frontend:latest
+    image: hemachand0425/grocery-frontend:latest
     container_name: react
     ports:
       - "2508:80"
